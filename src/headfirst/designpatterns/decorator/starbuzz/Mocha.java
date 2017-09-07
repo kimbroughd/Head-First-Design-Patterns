@@ -3,7 +3,7 @@ package headfirst.designpatterns.decorator.starbuzz;
 public class Mocha extends CondimentDecorator {
  
 	public Mocha(Beverage beverage) {
-		super.CondimentDecorator(beverage);
+		super(beverage);
 	}
  
 	public String getDescription() {
